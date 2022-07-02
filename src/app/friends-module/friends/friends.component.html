@@ -1,0 +1,7 @@
+<p>friends </p>
+<router-outlet></router-outlet>
+<div *ngFor="let f of friends">
+    <ul>
+        <a [routerLink]="[f]"><li>{{f}}</li></a>
+    </ul>
+</div>
